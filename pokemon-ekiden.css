@@ -1,0 +1,72 @@
+@charset "UTF-8";
+@font-face {
+  font-family: "pokemon-font";
+  src: url("https://dl.dropboxusercontent.com/s/zfedwv75x0x7up5/pokemon-font.woff2")
+      format("woff2"),
+    url("https://dl.dropboxusercontent.com/s/ik7k3jrmuwm6b5l/pkmn_r.woff")
+      format("woff"),
+    url("https://dl.dropboxusercontent.com/s/u3bdriqliqf2c2y/pokemon-font.ttf")
+      format("truetype");
+}
+
+@media screen and (min-width: 481px) {
+  .pc {
+    width: 375px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.pc {
+  background-color: #bfe7f1;
+  color: #000000;
+  font-family: "pokemon-font", monospace;
+}
+
+.title {
+  font-weight: bold;
+  line-height: 1.5em;
+}
+
+.schedule {
+  font-size: 1.2em;
+  line-height: 1.6em;
+}
+
+.text {
+  line-height: 2em;
+}
+
+.line {
+  border-top: solid 4px #6664fd;
+}
+
+.entry-btn {
+  position: relative;
+  display: inline-block;
+  width: 8em;
+  height: 3em;
+  line-height: 2.2em;
+  padding: 0.25em 0.5em;
+  text-decoration: none;
+  color: #fff;
+  background: #1253a4;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.2),
+    inset 0 -2px 0 rgba(0, 0, 0, 0.05);
+  font-family: "pokemon-font";
+  font-size: 1.2em;
+  font-weight: bold;
+  border: solid 2px #1253a4;
+}
+
+.entry-btn:hover {
+  background: #3666a0;
+  color: white;
+}
+
+.yzkgym-logo {
+  display: inline-block;
+  margin: 20px 0 5px;
+  width: 200px;
+}
